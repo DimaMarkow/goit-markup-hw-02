@@ -59,7 +59,8 @@ ul {
 /* benefits-section */
 .benefits-section .title,
 .work-section .title,
-.team-section .title {
+.team-section .title,
+.filter-section .title {
 	color: var(--title-text-color);
 }
 
@@ -72,12 +73,19 @@ ul {
 	background-color: var(--accent);
 }
 
-.buttom.primary {
+.button.primary {
 	background-color: var(--accent);
 	color: var(--primary-bg-color);
 }
 
-.buttom.secondary {
+.button.secondary {
 	background-color: var(--primary-bg-color);
 	color: var(--accent);
+}
+
+/* address */
+.addr,
+.contacts .link {
+	color: #ffffff;
+	background-color: var(--secondary-background-color);
 }
